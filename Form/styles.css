@@ -1,0 +1,18 @@
+input{
+    width: 500px;
+}
+.buttons{
+    width: 60px;
+}
+.checkbox{
+    width: 50px;
+}
+.radio{
+    width: 50px;
+}
+h1{
+    text-align: center;
+}
+body{
+    background-color: plum;
+}

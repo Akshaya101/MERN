@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <h1>REGISTRATION FORM</h1>
+    <form name="registration" id="sampleForm">
+        <table align="center" cellpadding="10">
+            <tr>
+                <td><label for="FirstName">FIRST NAME</label></td>
+                <td><input type="text" id="fname" name="FirstName" placeholder="enter your first name here..."></td>
+            </tr>
+            <tr>
+                <td><label for=LastName>LAST NAME</label></td>
+                <td><input type="text" id="lname" name="LastName" placeholder="enter your last name here..."></td>
+            </tr>
+            <tr>
+                <td><label for="UserName">USER NAME</label></td>
+                <td><input type="text" id="uname" name="UserName" placeholder="enter your user name here..."></td>
+            </tr>
+            <tr>
+                <td><label for="Password">PASSWORD</label></td>
+                <td><input type="password" placeholder="enter your password here..." name="Password"></td>
+            </tr>
+            <tr>
+                <td><label for="DOB">DATE OF BIRTH</label></td>
+                <td><input type="date" id="dob" name="DOB"></td>
+            </tr>
+            <tr>
+                <td><label for="Email">EMAIL ADDRESS</label></td>
+                <td><input type="email" id="email" name="Email" placeholder="enter your email address here..."></td>
+            </tr>
+            <tr>
+                <td><label for="Address">ADDRESS</label></td>
+                <td>
+                    <textarea rows="10" id="address" name="Address" cols="50" placeholder="enter your text here...."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="City">CITY</label></td>
+                <td><input type="text" id="city" name="City" placeholder="enter your city here..." name="City"></td>
+            </tr>
+            <tr>
+                <td><label for="Pincode">PIN CODE</label></td>
+                <td><input type="number" id="pincode" placeholder="enter your pincode here..." name="Pincode"></td>
+            </tr>
+            <tr>
+                <td><label for="State">STATE</label></td>
+                <td><input type="text" id="state" placeholder="enter your state here..." name="State"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" class="buttons" id="btn">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <script src="form.js"></script>
+</body>
+</html>
