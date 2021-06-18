@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    margin: auto;
+}
+.btn{
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+.card{
+    border-radius: 0px;
+}
+.list-group-item{
+    border-radius: 0px;
+    text-transform: uppercase;
+}
+.input-group{
+    border-radius: 0;
+}
+.text-box{
+    padding: 150px 50px 150px 50px;
+}
+.column{
+    text-align: center;
+    padding-left: 450px;
+}
+body{
+    background: url(gogs.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    background-blend-mode:lighten;
+}
