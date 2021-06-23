@@ -6,6 +6,9 @@ body{
     border-radius: 0px;
     text-transform: uppercase;
 }
+.btn:hover{
+    background-color: darkgray;
+}
 .card{
     border-radius: 0px;
 }
