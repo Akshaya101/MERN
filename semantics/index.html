@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Semantic Tags</title>
+</head>
+
+<body>
+    <header>
+        <div class="heading">
+            <h1 class="heading-title">Semantic Tags</h1>
+            <blockquote class="heading-description">---- A semantic element explains its meaning to both the browser and
+                the
+                developer.
+            </blockquote>
+        </div>
+    </header>
+    <nav>
+        <a class="nav-links-first" href="#">Home</a>
+        <a class="nav-links" href="#details">Details</a>
+        <a class="nav-links" href="#section">Section</a>
+        <a class="nav-links" href="#article">Article</a>
+    </nav>
+    <div class="aside">
+        <aside>
+            <ul>
+                <li class="aside-links"><a href="#details">Details</a></li>
+                <li class="aside-links"><a href="#section">Section</a></li>
+                <li class="aside-links"><a href="#article">Article</a></li>
+                <li class="aside-links"><a href="#header-footer">Header and Footer</a></li>
+            </ul>
+        </aside>
+    </div>
+    <section id="details">
+        <h1>Details Element</h1>
+        <p>The details tag specifies additional details that the user can open and close on demand.</p>
+        <details>
+            <summary>Use of Semantic Tags</summary>
+            <p>
+                These tags actually reinforce the meaning of the content displayed
+                on the web page rather than merely define the appearance.
+            </p>
+        </details>
+    </section>
+    <section id="section">
+        <h1>Section Element</h1>
+        <p>
+            Section element defines a section in the document. A section is a thematic grouping of content, typicaly
+            with a heading.
+            A section can be used for
+        <ul>
+            <li>Chapters</li>
+            <li>Introduction</li>
+            <li>News Items</li>
+            <li>Contact Information</li>
+        </ul>
+        </p>
+    </section>
+    <section id="article">
+        <h1>Article Element</h1>
+        <p>
+            The article element specifies independent, self-contained content.
+            An article should make sense on its own, and it should be possible to distribute it independently from the
+            rest of the
+            web site.
+        <p>Article element can be use for</p>
+        <ul>
+            <li>Forum Posts</li>
+            <li>Blog posts</li>
+            <li>User Comments</li>
+            <li>Product cards</li>
+        </ul>
+        </p>
+    </section>
+    <section id="header-footer">
+        <article>
+            <h1>Header-Footer Elements</h1>
+        </article>
+        <b>Header: </b><span>The header element represents a container for introductory content and a set of navigation
+            links</span><br>
+        <b>Footer: </b><span>The footer element represents footer of the document</span>
+    </section>
+    <section id="mark-aside">
+        <article class="mark">
+            <h1>Mark Element</h1>
+            <p>This tag is used to define the text that has to be marked or <mark>highlighted</mark></p>
+        </article>
+        <article class="aside">
+            <h1>Aside Element</h1>
+            <p>The aside tag defines some content aside from the content it is placed in. The aside content should be
+                indirectly related to the surrounding content.</p>
+            <p>This content is often placed as a sidebar in a document</p>
+        </article>
+    </section>
+    <footer class="footer">
+        <p>&copy; owned by semantic-tags</p>
+    </footer>
+</body>
+
+</html>
