@@ -1,0 +1,38 @@
+.container-fluid{
+    padding: 0px;
+}
+body{
+    background-color: #FFF9F9;
+}
+.title{
+    padding: 25px;
+    text-align: center;
+    background-color: #D6E5FA;
+    color: #555555;
+}
+.row{
+    margin: 50px 0;
+}
+.grid-1{
+    padding: 0 50px;
+}
+.grid-2{
+    padding: 30px 0 50px 0;
+}
+.hellomsg{
+    text-transform: capitalize;
+    color: #555555;
+}
+.msg{
+    margin: 20px 0;
+    color: #555555;
+}
+.conditions{
+    margin: 50px 0;
+}
+.btn-primary{
+    margin-top: 30px ;
+}
+label{
+    text-transform: capitalize;
+}
