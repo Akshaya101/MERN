@@ -4,7 +4,7 @@ let btn = document.getElementById('btn')
 
 //button submitting
 btn.addEventListener('click', function (e) {
-    //e.preventDefault()
+
     //tapping into the properties
     //values would only be obtained once the submit button is clicked
     let fname = document.getElementById('fname').value
@@ -15,6 +15,11 @@ btn.addEventListener('click', function (e) {
     document.querySelector('.hellomsg').textContent = "Hello " + fname + " !"
     //convert age to number
     age = Number(age)
+
+    if (isNaN(age)) {
+        alert('Age has to be a Number!')
+    }
+
     if (age >= 60) {
         document.querySelector('.msg').textContent = "You are eligible for a booster shot!"
     }
