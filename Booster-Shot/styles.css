@@ -1,38 +1,87 @@
+html{
+    scroll-behavior: smooth;
+}
 .container-fluid{
-    padding: 0px;
+    padding: 0;
 }
-body{
-    background-color: #FFF9F9;
+.click-here{
+    text-decoration: none;
+    font-family: 'Athiti', sans-serif;
+    color: grey;
+    font-size: 18px;
 }
-.title{
-    padding: 25px;
-    text-align: center;
-    background-color: #D6E5FA;
-    color: #555555;
+a:hover{
+    text-decoration: none;
+    color: black;
 }
-.row{
-    margin: 50px 0;
-}
-.grid-1{
-    padding: 0 50px;
-}
-.grid-2{
-    padding: 30px 0 50px 0;
+p, li{
+     font-family: 'Athiti', sans-serif;
 }
 .hellomsg{
     text-transform: capitalize;
-    color: #555555;
 }
-.msg{
-    margin: 20px 0;
-    color: #555555;
+#navbar-display{
+    background-color: #BBDED6;
+    padding: 1rem;
+}
+.navbar-brand i{
+    font-size: 3rem;
+}
+.nav-item{
+    font-size: 1.2rem;
+    padding-right: 2rem;
+    color: black;
+}
+#introduction{
+    background-color: #F1F9F9;
+    padding: 7rem 5rem;
+}
+.question{
+    padding-bottom: 2rem;
+}
+h1,h3{
+     font-family: 'Athiti', sans-serif;
+     font-weight: bold;
+}
+.answer{
+     font-family: 'Athiti', sans-serif;
+     font-size: 18px;
+}
+#booster-check{
+    background-color: #E1F2FB;
+    padding: 8rem 5rem;
+}
+.form label{
+    font-size: medium;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+     font-family: 'Athiti', sans-serif;
+}
+#booster-check .messages{
+    padding: 2rem;
+}
+.btn-primary{
+    margin-top:2rem;
+     font-family: 'Athiti', sans-serif;
+    font-size: 18px;
+}
+.btn-danger{
+    margin-top: 0.5rem;
+     font-family: 'Athiti', sans-serif;
+     font-size: 18px;
+}
+#footer{
+    background-color: #BBDED6;
+    padding: 2rem;
+     font-family: 'Athiti', sans-serif;
+}
+h5{
+    text-align: center;
 }
 .conditions{
     margin: 50px 0;
 }
-.btn-primary{
-    margin-top: 30px ;
-}
-label{
-    text-transform: capitalize;
-}
+
+/* font-family: 'Arsenal', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Spline Sans', sans-serif; */

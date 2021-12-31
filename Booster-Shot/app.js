@@ -17,7 +17,7 @@ btn.addEventListener('click', function (e) {
     age = Number(age)
 
     if (isNaN(age)) {
-        alert('Age has to be a Number!')
+        return alert('Age has to be a Number!')
     }
 
     if (age >= 60) {
